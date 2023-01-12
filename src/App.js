@@ -1,11 +1,13 @@
-import React from 'react'
+import PostsList from "./features/posts/PostsList";
+import AddPostForm from "./features/posts/AddPostForm";
 
-const App = () => {
+function App() {
   return (
-    <div>
-      
-    </div>
-  )
+    <main className="App">
+      <AddPostForm />
+      <PostsList />
+    </main>
+  );
 }
 
-export default App
+export default App;
